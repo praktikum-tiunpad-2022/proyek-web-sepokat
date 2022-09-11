@@ -22,3 +22,5 @@
 <h1> Target Pengguna </h1>
 <p> Masyarakat yang menyukai sneakers-sneakers keren </p>
 
+<h1> Mockup Kasar Sederhana </h1>
+
