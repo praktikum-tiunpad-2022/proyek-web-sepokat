@@ -23,5 +23,4 @@
 <p> Masyarakat yang menyukai sneakers-sneakers keren </p>
 
 <h1> Mockup Kasar Sederhana </h1>
-![mockup](https://user-images.githubusercontent.com/100248750/189557039-9192867b-ed1d-43a9-83a6-ca9957bbfe2e.jpeg)
-
+![mockup](https://user-images.githubusercontent.com/100248750/189557354-5eae9170-10ed-45a5-92d2-daeef1ca4bd4.jpeg)
