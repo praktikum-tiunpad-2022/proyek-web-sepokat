@@ -24,3 +24,5 @@
 
 <h1> Mockup Kasar Sederhana </h1>
 ![mockup](https://user-images.githubusercontent.com/100248750/189557354-5eae9170-10ed-45a5-92d2-daeef1ca4bd4.jpeg)
+
+<h1> Skema Database </h1>
