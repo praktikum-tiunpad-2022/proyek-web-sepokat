@@ -4,6 +4,20 @@
   </h2>  
 </p>
 
+<!-- Daftar Isi -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Daftar Isi</h2></summary>
+  <ol>
+    <li><a href="#anggota-tim">Anggota Tim</a></li>
+    <li><a href="#fungsi">Fungsi</a></li>
+    <li><a href="#tujuan">Tujuan</a></li>
+    <li><a href="#manfaat">manfaat</a></li>
+    <li><a href="#target-Pengguna">Target Pengguna</a></li>
+    <li><a href="#mockup-kasar-sederhana">Mockup Kasar Sederhana</a></li>
+    <li><a href="#skema-database">Skema Database</a></li>
+  </ol>
+</details>
+
 <h1>Anggota Kelompok </h1>
 <table>
 <tr>
