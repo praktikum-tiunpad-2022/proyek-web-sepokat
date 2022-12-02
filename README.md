@@ -29,7 +29,7 @@
 <p> Masyarakat yang menyukai sneakers-sneakers keren </p>
 
 <h2> Mockup Kasar Sederhana </h2>
-![mockup](https://user-images.githubusercontent.com/100248750/189557354-5eae9170-10ed-45a5-92d2-daeef1ca4bd4.jpeg)
+https://www.figma.com/file/frwnXKL1ns4z4ioDn30bDB/Project-Sepokat?node-id=7%3A2&t=ui7ffoTdJly6XGvA-1
 
 <h2> Skema Database </h2>
 ![ERD project drawio](https://user-images.githubusercontent.com/100248750/189847601-f0eeb74b-1ad6-4fb7-88c5-a7b9bba79de9.png)
