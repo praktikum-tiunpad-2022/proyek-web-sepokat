@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">
-    Website JualSepokat
+    Website Jual Sepokat
   </h1>  
 </p>
 
