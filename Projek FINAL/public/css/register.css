@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/img/jordan.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}   
+
+
+.logo{
+    color:#ff7200;
+    font-size: 22px;
+    font-family: Arial;
+    padding-left:35 px;
+    float: left;
+    padding-top: 15px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    float: left;
+    padding-top: 15px;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    padding-left:35px;
+}
+
+.form{
+    width: 650px;
+    background-color: #1c1c1c;
+    position:absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form h2{
+    width: 620px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 630px;
+    height: 35px;
+    border: 2px solid #BE2F29;
+    border-radius: 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.btnn{
+    width: 640px;
+    height: 40px;
+    background:#BE2F29;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #191919;
+    color: #BE2F29;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

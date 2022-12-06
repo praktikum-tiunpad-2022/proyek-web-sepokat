@@ -1,0 +1,255 @@
+.item2 { grid-area: menu; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'footer footer footer menu';
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    /* box-shadow: 0 5px 20px rgb(0 0 0 / 30%); */
+}
+
+.item5, .item2{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;  
+    box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
+}
+
+.description{
+    width: 200px;    
+}
+
+.item5 > p, .description p{
+    padding: 0 10px;
+    text-align: start;
+}
+
+.miring{
+    display: block;
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: start;
+}
+
+.link-back, .link-back a{
+    font-size:medium;
+    color: #000;
+    text-decoration: none;
+}
+
+.name-brand{
+    margin-top: 20px;
+}
+
+.rating-product span{
+    font-size: 15px;
+}
+
+hr { 
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background:#c4c4c4;
+}
+
+.method-pay{
+    position: absolute;
+    /* height: 100px; */
+    top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    left: 0;
+    text-align: left;
+}
+
+.input-pay-method{
+    font-weight: 400;
+    width: 280px;
+    height: 30px;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0px 2px #c1c1c1;
+    font-size: 14px;
+    background: transparent;
+}
+
+/* Style Form */
+
+body fieldset {
+border: none;
+}
+
+body fieldset:valid > button {
+    opacity: 1; 
+}
+
+body fieldset:valid > button:hover {
+    opacity: 1;
+    background: #CD3C3C;
+}
+
+body button {
+    width: 280px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.4s;
+    border: none;
+    font-family: "Lato", sans-serif;
+    padding: 20px;
+    background-color: #c4c4c4c4;
+    color: white;
+    outline: none;
+    margin-top: 15px;
+}
+
+body .kickass_field {
+    margin: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100px;
+    right: 0;
+    width: 280px;
+}
+
+body .kickass_field lable {
+    font-size: 14px;
+    position: absolute;
+    height: 100px;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    top: 50px;
+    text-align: left;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    pointer-events: none;
+    transition: all 0.2s 0.3s;
+}
+
+body .kickass_field lable span {
+font-size: 10px;
+color: #9f9fb5;
+clear: left;
+opacity: 0;
+font-weight: 400;
+display: block;
+transition: opacity 0.5s 0s;
+}
+
+body .kickass_field lable:after {
+width: 4px;
+content: "";
+height: 8px;
+border-bottom: 2px solid #f65252;
+border-right: 2px solid #f65252;
+transform: translateX(-10px) rotate(45deg);
+position: absolute;
+left: 120%;
+top: 30px;
+transition: all 0.2s;
+}
+
+body .kickass_field input {
+border: none;
+color: #6E738A;
+font-weight: 400;
+padding: 40px 0px 10px 0px;
+background: transparent;
+letter-spacing: 1px;
+outline: none;
+font-family: "Lato", sans-serif;
+height: 30px;
+width: 280px;
+-webkit-transition-property: -webkit-transform;
+transition-property: transform;
+font-size: 14px;
+box-shadow: 0px 2px #c1c1c1;
+}
+
+body .kickass_field input:focus + lable {
+    /* color: #F65252; */
+    font-size: 10px;
+    top: 10px;
+    transition: all 0.2s 0s;
+}
+
+body .kickass_field input:focus + lable span {
+    opacity: 1;
+    transition: opacity 0.5s 0.3s;
+}
+
+body .kickass_field input:valid + lable {
+    font-size: 10px;
+    top: 10px;
+    /* color: #f65252; */
+}
+
+body .kickass_field input:valid + lable span {
+    opacity: 1;
+    transition: opacity 0.3s 0s;
+}
+
+body .kickass_field input:valid + lable::after {
+    display: block;
+    left: 100%;
+}
+
+body .kickass_field input:invalid {
+    color: #314453;
+}
+
+body .kickass_field input:focus:invalid {
+    color: #6E738A;
+  }
+  
+  /* --- End Form styling --- */
+  /* --- Begin template styling --- */
+  
+  .container h1, .container h2 {
+    font-weight: 300;
+  }
+  .container h1 {
+    margin: 0;
+    /* color: red; */
+  }
+  .container p {
+    color: #6E738A;
+    font-weight: 300;
+    margin-top: 40px;
+  }
+  .container .love span {
+    font-size: 12px;
+    color: #bcbcbc;
+    font-weight: 300;
+  }
+  .container .love span a {
+    /* color: #f65252; */
+    font-weight: 700;
+  }
+  .container .love span img {
+    position: relative;
+    margin: 3px;
+    top: 7px;
+  }
+  .container h2 {
+    margin: 7px 0 24px 0;
+    font-size: 22px;
+    color: #9A9FB5;
+  }
+  .container a {
+    /* color: #f65252; */
+    text-decoration: none;
+  }
+  .container a:hover {
+    text-decoration: underline;
+  }
